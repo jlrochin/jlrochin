@@ -1,0 +1,42 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.52" stop-color="#102A3A"/>
+      <stop offset="1" stop-color="#0B4A53"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="360" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <circle cx="1060" cy="35" r="170" fill="#14B8A6" fill-opacity="0.09"/>
+  <circle cx="120" cy="285" r="190" fill="#38BDF8" fill-opacity="0.08"/>
+  <ellipse cx="600" cy="168" rx="290" ry="74" fill="#2DD4BF" fill-opacity="0.06" filter="url(#glow)"/>
+
+  <g stroke="#67E8F9" stroke-opacity="0.22" stroke-width="2">
+    <path d="M0 72H115L145 102H240"/>
+    <path d="M0 227H86L116 197H210"/>
+    <path d="M1200 76H1084L1054 106H970"/>
+    <path d="M1200 230H1115L1085 200H990"/>
+  </g>
+  <g fill="#5EEAD4">
+    <circle cx="145" cy="102" r="4"/>
+    <circle cx="116" cy="197" r="4"/>
+    <circle cx="1054" cy="106" r="4"/>
+    <circle cx="1085" cy="200" r="4"/>
+  </g>
+
+  <text x="600" y="124" fill="#F8FAFC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="48" font-weight="700" text-anchor="middle">José Luis Rochin Upton</text>
+  <rect x="346" y="145" width="508" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="600" y="187" fill="#BAE6FD" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="600" letter-spacing="3" text-anchor="middle">FULL STACK · SISTEMAS DE SALUD · IA APLICADA</text>
+
+  <rect x="486" y="215" width="228" height="38" rx="19" fill="#0F172A" fill-opacity="0.68" stroke="#5EEAD4" stroke-opacity="0.45"/>
+  <circle cx="514" cy="234" r="6" fill="#34D399"/>
+  <text x="532" y="240" fill="#E2E8F0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Ciudad de México</text>
+</svg>
